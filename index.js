@@ -17,4 +17,5 @@ message.channel.send('Hello!') //Send Message To That Channel
 client.login(config.BOT_TOKEN); //Login To The Bot Token
 
 //More Thing That This Can Do On This Website https://discord.js.org/#/docs/main/stable/general/welcome
-//If you want to make the command owner only put this in if(message.author.id != config.OWNER_ID) return;
+//If you want to make the command owner only put this in 
+// if(message.author.id != config.OWNER_ID) return;
