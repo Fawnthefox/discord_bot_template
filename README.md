@@ -2,7 +2,7 @@
 
 ==========================================
 
-This were code in discord.js
+The discord framework are Discord.js
 
 All You Need is Discord Bot App, Node.js, Visual Studio (Recommend)
 
