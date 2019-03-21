@@ -17,6 +17,7 @@ Then get the bot token, Done?
 Head To config.json and config your bot!
 
 ==========================================
+
 How to run your bot? If you use visual studio use terminal
 Type node . In The Terminal
 
