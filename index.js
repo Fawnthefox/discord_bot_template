@@ -5,6 +5,8 @@ const prefix = config.PREFIX; //Register Prefix
 
 client.on('message', message => { //When There Is A Message
 if(message.content === prefix + 'hi') { //Check if message is prefix + hi
+if(message.author.bot) return; //If the user is a bot then return
+if(message.channel.type === 'dm') return; //If the channel type is dm Return
 message.channel.send('Hello!') //Send Message To That Channel
 }})
 
