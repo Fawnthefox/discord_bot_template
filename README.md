@@ -31,3 +31,9 @@ Also install the module first!
 Type npm install
 
 =========================================
+
+# Command
+
+=========================================
+
+1.hi % send a message to test the bot
