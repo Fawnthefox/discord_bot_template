@@ -12,7 +12,7 @@ if(message.content === prefix + 'hi') { //Check if message is prefix + hi
 if(message.author.bot) return; //If the user is a bot then return
 if(message.channel.type === 'dm') return; //If the channel type is dm Return
 message.channel.send('Hello!') //Send Message To That Channel
-}})
+}});
 
 client.login(config.BOT_TOKEN); //Login To The Bot Token
 
